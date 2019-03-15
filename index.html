@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Type Speed Timer</title>
+    <script src="script.js" async></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <header>
+        <img class="intro-img" src="img/header-img.jpg" alt="imgage of cat on keyboard">
+        <h1>Typing Speed Timer</h1>
+        <p>Your goal is to duplicate the provided text, EXACTLY, in the field below. The timer starts when you start typing, and only stops when you match this text exactly. Good Luck!</p>
+      </header>
+
+      <section class="timer-section">
+        <div class="timer-container">
+          <p class="timer">00:00</p>
+        </div>
+        <div class="time-units">
+          <p class="min-label">Minutes</p>
+          <p class="sec-label">Seconds</p>
+        </div>
+      </section>
+
+      <section class="prompt-section">
+        <p class="prompt-title">Prompt</p>
+        <p id="prompt-txt">I read that when cats are cuddling and kneading you, and you think it's cute, they're really just checking your vitals for weak spots. -Kandyse McClure</p>
+      </section>
+
+      <section class="input-section">
+        <textarea id="input-area" name="text" rows="5" placeholder="The timer starts when you start typing..." autocomplete="off"></textarea>
+        <button type="button" name="button">Start Over</button>
+      </section>
+    </main>
+
+  </body>
+</html>

@@ -1,0 +1,120 @@
+:root{
+  --primary: #616161;
+  --accent: #74EBD5;
+}
+
+::selection{
+  background-color: gold;
+}
+
+html{
+  background-color: #FAFAFA;
+}
+
+body, main, section, div, h1, h2, p, textarea, button{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  width: 550px;
+  margin: 1.7em auto;
+  font-family: 'Fira Sans', 'Helvetica', Arial, sans-serif;
+  text-align: center;
+  align-items: center;
+}
+
+
+.intro-img {
+  width: 300px;
+}
+
+h1{
+  color: var(--accent);
+  text-transform: uppercase;
+  margin: .5em;
+}
+
+header p, section p{
+  color: var(--primary);
+  font-weight: 300;
+  font-size: 0.9em;
+  margin: auto;
+}
+
+.timer-section{
+  margin: 2em 0 2.5em 0;
+}
+
+.timer{
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+.time-units{
+  display: flex;
+  /* align-items: center; */
+  margin: 0;
+}
+
+.min-label{
+  padding-left: 190px;
+}
+
+.sec-label{
+  padding-right: 190px;
+}
+
+.prompt-section {
+  border-top: 1px solid var(--accent);
+  text-align: left;
+  padding: 0 25px 0 25px;
+  margin-bottom: 1em;
+}
+
+.prompt-title{
+  color: var(--accent);
+  font-size: 1.25em;
+  text-align: left;
+  font-weight: 700;
+  margin-top: 2em;
+}
+
+#prompt-txt{
+  font-family: 'Fira Mono', "Andale Mono", "DejaVu Sans Mono", monospace;
+  line-height: 1.75em;
+  margin-top: 0.3em;
+}
+
+.input-section{
+  max-width: 550px;
+}
+
+textarea {
+  color: var(--main);
+  background-color: #FAFAFA;
+  /* font-weight: 700; */
+  padding: 2em 25px 0 25px;
+  margin-top: 3em;
+  border: none;
+  border-top: 3px solid var(--accent);
+  border-bottom: 3px solid var(--accent);
+  display: flex;
+  width: 510px;
+  font-family: 'fira sans', 'Helvetica', Arial, sans-serif;
+  line-height: 2em;
+}
+
+button{
+  color: var(--primary);
+  margin-top: 1em;
+  border: none;
+  background-color: #FAFAFA;
+  float: right;
+}
+
+button:focus, button:hover{
+  color: #4BD5C7;
+}
