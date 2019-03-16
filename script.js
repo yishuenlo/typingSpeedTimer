@@ -79,7 +79,7 @@ function reset(){
 
 // -------EVENT LISTENERS---------
 // listen to keypress in input Area to start timer
-INPUT.addEventListener("keypress", startTimer);
+INPUT.addEventListener("keyup", startTimer);
 
 // listen to keyup, then do spell check
 INPUT.addEventListener("keyup", spellCheck);
