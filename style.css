@@ -146,3 +146,21 @@ button:hover, button:hover svg path{
   width: 20px;
   fill: var(--primary);
 }
+
+@media(max-width: 560px){
+  main, .input-section{
+    width: 320px;
+  }
+
+  textarea{
+    width: 270px;
+  }
+
+  .min-label{
+    padding-left: 76px;
+  }
+
+  .sec-label{
+    padding-right: 76px;
+  }
+}
