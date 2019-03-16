@@ -73,6 +73,7 @@ function reset(){
   TIMERDISPLAY.innerHTML = "00:00";
   INPUT.disabled = false;
   INPUT.style.borderColor = "#74EBD5";
+  INPUT.style.color = "#616161";
 }
 
 
