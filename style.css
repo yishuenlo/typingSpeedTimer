@@ -17,7 +17,7 @@ body, main, section, div, h1, h2, p, textarea, button{
 }
 
 main{
-  width: 550px;
+  width: 560px;
   margin: 1.7em auto;
   font-family: 'Fira Sans', 'Helvetica', Arial, sans-serif;
   text-align: center;
@@ -89,7 +89,7 @@ header p, section p{
 }
 
 .input-section{
-  max-width: 550px;
+  max-width: 560px;
 }
 
 textarea {
@@ -105,6 +105,10 @@ textarea {
   width: 510px;
   font-family: 'fira sans', 'Helvetica', Arial, sans-serif;
   line-height: 2em;
+}
+
+textarea:focus {
+  outline: none;
 }
 
 button{
