@@ -90,7 +90,8 @@ header p, section p{
 
 .input-section{
   max-width: 560px;
-  margin-bottom: 3em;
+  /* margin-bottom: 3em; */
+  padding-bottom: 3em;
 }
 
 textarea {
@@ -110,18 +111,6 @@ textarea {
 
 textarea:focus {
   outline: none;
-}
-
-.reset-buttons{
-  display: flex;
-  float:right;
-  align-items: center;
-  flex-direction: row;
-}
-
-.reset-buttons:hover{
-  color: #4BD5C7;
-  fill: #4BD5C7;
 }
 
 button{
