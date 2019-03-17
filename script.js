@@ -8,6 +8,7 @@ window.onload = INPUT.select();
 
 var interval;
 var timer = [0,0,0]; //min, sec
+var timerRunning = false;
 
 function leadingZero(time){
   if(time <=9){
@@ -33,10 +34,12 @@ function runTimer(){
 
 function startTimer(){
   let inputTxtLength = INPUT.value.length;
-  if(inputTxtLength == 0){
+  if(inputTxtLength == 1 && !timerRunning){
+    timerRunning = true;
     interval = setInterval(runTimer, 100); //interval of 100ms
   }
 }
+
 
 function spellCheck(){
   let txtEntered = INPUT.value;
@@ -67,6 +70,7 @@ function reset(){
   clearInterval(interval);
   interval = null;
   timer = [0,0,0];
+  timerRunning = false;
 
   //reset display
   INPUT.value = "";
